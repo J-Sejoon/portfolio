@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <div class="section_bg bg1"></div>
+  <div class="section_bg bg2"></div>
+  <div class="layer_btm_gradient"></div>
+  <div class="bird"></div>
+
+  <header>
+    <nav class="navbar navbar-expand-md fixed-top px-3">
+      <div class="container-xl justify-content-end">
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse flex-grow-0 navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#title">Home</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#about">About me</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#web">Web</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#app">App</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="content title_wrap">
+      <div id="title" class="title">
+        <div class="waviy">
+        <strong><span style="--i:1">장</span><span style="--i:2">세</span><span style="--i:3">준</span></strong><span style="--i:4">의</span> <span style="--i:5">포</span><span style="--i:6">트</span><span style="--i:7">폴</span><span style="--i:8">리</span><span style="--i:9">오</span>
+        <span style="--i:10">입</span><span style="--i:11">니</span><span style="--i:12">다</span>
+      </div>
+        <video class="hor" src="img/title_bg.mp4" autoplay muted loop></video>
+        <img class="win" src="img/title_win.png" alt="">
+        <img class="pen" src="img/title_pen.png" alt="">
+      </div>
+      <div class="circle">
+        <img src="img/title_cir.png" alt="">
+      </div>
+    </div>    
+  </header>
+
+  <main>
+    <section class="content about mb-5">
+      <div id="about" class="d-flex row p-5 mx-5 justify-content-between">
+        <h1 class="mb-5">Abount me</h1>
+        <ul class="intro col-12 col-md-4">
+          <h2>Introduce</h2>
+          <p class="lh-lg">안녕하세요<br>끊임없이 변화하는 트렌드를<br> 읽고 배우며 성장하는 <br>프론트엔드 개발자가 되겠습니다. </p>
+        </ul>
+        <ul class="profile col-12 col-md-4">
+          <h2>Profile</h2>
+          <li>
+            <p>SEJOON JANG / 장세준</p>
+          </li>
+          <li>
+            <p>010-2261-0734 / abc0734@naver.com</p>
+          </li>
+          <li>
+            <p>인천광역시 연수구</p>
+          </li>
+        </ul>
+        <ul class="education col-12 col-md-4">
+          <h2>Education</h2>
+          <li>
+            <p>2023.01 - 프론트엔드 웹&앱 수료 </p>
+          </li>
+          <li>
+            <p>2022.02 - 국립공주대학교 기계공학 졸업</p>
+          </li>
+          <li>
+            <p>2016.02 - 인천남동고등학교 졸업</p>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <ul class="skill text-center row">
+          <h2 class="mb-4">Skill</h2>
+          <div class="row mb-4 flex-nowrap">
+            <li class="col"><img src="img/html.png" alt="html"></li>
+            <li class="col"><img src="img/css.png" alt="css"></li>
+            <li class="col"><img src="img/js.png" alt="js"></li>
+            <li class="col"><img src="img/jquery.png" alt="jquery"></li>
+            <li class="col"><img src="img/bootstrap.png" alt="bootstrap"></li>
+            <li class="col"><img src="img/sass.png" alt="sass"></li>
+          </div>
+          <div class="row flex-nowrap">
+            <li class="col"><img src="img/react.png" alt="react"></li>
+            <li class="col"><img src="img/vue.png" alt="vue"></li>
+            <li class="col"><img src="img/figma.png" alt="figma"></li>
+            <li class="col"><img src="img/sketchup.png" alt="sketchup"></li>
+            <li class="col"><img src="img/cad.png" alt="autocad"></li>
+            <li class="col"><img src="img/solidworks.png" alt="solidworks"></li>
+          </div>
+        </ul>
+      </div>
+    </section>
+
+    <section class="site">
+      <div id="web" class="content web p-5">
+        <h1 class="text-start mb-5">Web</h1>
+        <div class="swiper pe-5">
+          <ul class="thumb d-flex justify-content-between text-center swiper-wrapper">
+            <li class="swiper-slide">		
+              <a href="img/web01.jpg" alt="" >
+                <img src="img/web01.jpg" alt="" />
+                <div class="modal">                
+                  <strong class="tit">삼성갤럭시</strong>
+                  <p class="type">
+                    TYPE : Main + Sub page, Responsive Web<br>
+                    TOOL : Jquery Figma<br>
+                    PROCESS : 스크롤이벤트, 클릭이벤트
+                  </p>
+                  <div class="tag">
+                    <a class="link" onclick="window.open(this.href,''); return false;" href="https://www.figma.com/file/WNxiYYJ0UtSBKdZwa2CiKm/%ED%9C%B4%EB%8C%80%ED%8F%B0?node-id=0%3A1&t=g9KibZKJPVTsL5fn-3">prototype</a>
+                    <a class="link" onclick="window.open(this.href,''); return false;" href="https://j-sejoon.github.io/project1/">web</a>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="img/web02.png">
+                <img src="img/web02.png" alt="" />
+                <div class="modal">
+                  <strong class="tit">빙그레</strong>
+                  <p class="type">
+                    TYPE : Main page, Responsive Web<br>
+                    TOOL : Jquery<br>
+                    PROCESS : 스크롤이벤트</p>
+                  <div class="tag">
+                    <a class="link" onclick="window.open(this.href,''); return false;" href="https://j-sejoon.github.io/pf1-binggrae/">web</a>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="img/web03.jpg">						
+                <img src="img/web03.jpg" alt="" />
+                <div class="modal">  
+                  <strong class="tit">타이어테크</strong>
+                  <p class="type">
+                    TYPE : Main + Sub page, Responsive Web<br>
+                    TOOL : Jquery<br>
+                    PROCESS : 메뉴슬라이드이벤트
+                  </p>
+                  <div class="tag">
+                    <a class="link" onclick="window.open(this.href,''); return false;" href="https://j-sejoon.github.io/tire-tech/">web</a>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide">						
+              <a href="img/web04.jpg">
+                <img src="img/web04.jpg" alt="" />
+                <div class="modal">                
+                  <strong class="tit">어반런드렛</strong>
+                  <p class="type">
+                    TYPE : Main page, Responsive Web<br>
+                    TOOL : Jquery Js<br>
+                    PROCESS : 스크롤이벤트, 이미지슬릭, 메뉴슬라이드이벤트
+                  </p>
+                  <div class="tag">
+                    <a class="link" onclick="window.open(this.href,''); return false;" href="https://j-sejoon.github.io/pf2-urban/">web</a>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="img/web05.jpg">						
+              <img src="img/web05.jpg" alt="" />
+                <div class="modal">
+                  <strong class="tit">efusioni</strong>
+                  <p class="type">
+                    TYPE : Main page<br>
+                    TOOL : Jquery Js<br>
+                    PROCESS : isotope.js, 팝업이벤트
+                  </p>
+                  <div class="tag">
+                    <a class="link" onclick="window.open(this.href,''); return false;" href="https://j-sejoon.github.io/efusioni/">web</a>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="img/web06.png">						
+                <img src="img/web06.png" alt="" />
+                <div class="modal">
+                  <strong class="tit">튼튼영어</strong>
+                  <p class="type">
+                    TYPE : Main page, Responsive Web<br>
+                    TOOL : Jquery Bootstrap<br>
+                    PROCESS : carousel이미지슬라이드
+                  </p>
+                  <div class="tag">
+                    <a class="link" onclick="window.open(this.href,''); return false;" href="https://j-sejoon.github.io/tntnEng/">web</a>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="img/web07.jpg">
+                <img src="img/web07.jpg" alt="" />
+                <div class="modal">
+                  <strong class="tit">H&M</strong>
+                  <p class="type">
+                    TYPE : Main, Sub page, Responsive Web<br>
+                    TOOL : React Js Bootstrap Sass<br>
+                    PROCESS : api호출, 검색이벤트, 로그인페이지
+                  </p>
+                  <div class="tag">
+                    <a class="link" onclick="window.open(this.href,''); return false;" href="https://abc0734hnm.netlify.app">web</a>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="img/web08.jpg">
+                <img src="img/web08.jpg" alt="" />
+                <div class="modal">
+                  <strong class="tit">넷플릭스</strong>
+                  <p class="type">
+                    TYPE : Main, Sub page, Responsive Web<br>
+                    TOOL : React Js Bootstrap Sass<br>
+                    PROCESS : api호출, 이미지슬라이드, 유튜브연결
+                  </p>
+                  <div class="tag">
+                    <a class="link" onclick="window.open(this.href,''); return false;" href="https://abc0734netflix.netlify.app/">web</a>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <!-- <li class="swiper-slide">		
+              <a href="img/web09.jpg" alt="" >
+                <img src="img/web09.jpg" alt="" />
+                <div class="modal">                
+                  <strong class="tit">프로젝트3</strong>
+                  <p class="type">
+                    TYPE : Main + Sub page, Responsive Web<br>
+                    TOOL : Jquery Figma<br>
+                    PROCESS : 스크롤이벤트, 클릭이벤트
+                  </p>
+                  <div class="tag">
+                    <a class="link" onclick="window.open(this.href,''); return false;" href="https://www.figma.com/file/WNxiYYJ0UtSBKdZwa2CiKm/%ED%9C%B4%EB%8C%80%ED%8F%B0?node-id=0%3A1&t=g9KibZKJPVTsL5fn-3">prototype</a>
+                    <a class="link" onclick="window.open(this.href,''); return false;" href="https://j-sejoon.github.io/project1/">web</a>
+                  </div>
+                </div>
+              </a>
+            </li> -->
+
+          </ul>   
+        </div>
+      </div>
+
+      <div id="app" class="content app p-5">
+        <h1 class="text-start mb-5">App</h1>
+        <div class="swiper pe-5">
+          <ul class="thumb d-flex justify-content-between text-center swiper-wrapper">
+            <li class="swiper-slide">
+              <a href="img/app01.png">						
+                <img src="img/app01.png" alt="" />
+                <div class="modal">
+                  <strong class="tit">KFC</strong>
+                  <p class="type">
+                    TYPE : Main, Sub page<br>
+                    TOOL : Jquery Js Figma<br>
+                    PROCESS : swiper.js, 메뉴filter, 수량가격합산, 주소불러오기
+                  </p>
+                  <div class="tag">
+                    <a class="link" onclick="window.open(this.href,''); return false;" href="https://www.figma.com/proto/OJyPLEjEEYxpL7CNhQthLh/Project?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2">prototype</a>
+                    <a class="link" onclick="window.open(this.href,''); return false;" href="https://j-sejoon.github.io/project2/">mobile</a>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="img/app02.png">						
+                <img src="img/app02.png" alt="" />
+                <div class="modal">
+                  <strong class="tit">아산병원</strong>
+                  <p class="type">
+                    TYPE : Main, Sub page<br>
+                    TOOL : Jquery Js<br>
+                    PROCESS : 메뉴슬라이드이벤트</p>
+                  <div class="tag">
+                    <a class="link" onclick="window.open(this.href,''); return false;" href="https://j-sejoon.github.io/asan/">mobile</a>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="img/app03.png">						
+                <img src="img/app03.png" alt="" />
+                <div class="modal">
+                  <strong class="tit">카카오프렌즈</strong>
+                  <p class="type">
+                    TYPE : Main page<br>
+                    TOOL : Jquery<br>
+                    PROCESS : 메뉴슬라이드이벤트
+                  </p>
+                  <div class="tag">
+                    <a class="link" onclick="window.open(this.href,''); return false;" href="https://j-sejoon.github.io/kakao-friends/">mobile</a>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="img/app04.png">					
+                <img src="img/app04.png" alt="" />
+                <div class="modal">
+                  <strong class="tit">카카오톡</strong>
+                  <p class="type">
+                    TYPE : Main, Sub page<br>
+                    TOOL : Sass<br> 
+                  </p>
+                  <div class="tag">
+                    <a class="link" onclick="window.open(this.href,''); return false;" href="https://j-sejoon.github.io/sns_kakao/">mobile</a>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer">
+          <p>Copyright 2022 JANG SE JOON All rights reserved</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="modal">
+    <div class="big_wrap">
+      <img src="img/web01.jpg" alt="" />
+      <div class="modal_text">
+        <p class="tit">
+          <strong></strong>
+        </p>
+        <p class="type"></p>
+      </div>
+      <div class="tag">
+        <a class="link"></a>
+      </div>
+    </div> 
+  </div>
+</body>
+</html>
