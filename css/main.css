@@ -216,18 +216,20 @@ section h1, h2{
   height: 300px;
   overflow: hidden;
 }
-.site li:hover img{
+.site .web li:hover img{
   transform: scale(1.1);
 }
-
-/* .site li:hover .detail {
+.site .app li:hover img{
+  transform: scale(0.9);
+}
+.site li:hover .detail {
   opacity:1;
-} */
+}
 
-/* .site li{
+.site li{
   position: relative;
-} */
-/* .site .detail { 
+}
+.site .detail { 
   position:absolute;
   top:0; right:0; left:0;
   height:100%;
@@ -238,39 +240,14 @@ section h1, h2{
   justify-content:center;
   opacity:0;  
   transition:opacity 0.5s;
-  color:#fff;
+  color:#ddd;
 }
-.site .detail a:hover{
-  color: #999;
+
+.site .detail .titthu{
+  margin: 40px;
+  font-size: 24px;
 }
-.site .detail p{
-  margin: 0;
-  font-size: 16px;
-}
-.site .detail .tag{
-  display: flex;
-}
-.site .detail .tit{
-  display:inline-block;
-  font-size:24px;
-  line-height:1;
-  margin:10px 0 20px;
-} */
-/* .site .tag a{
-  display: block;
-  border: 1px solid #fff;
-  border-radius: 20px;
-  margin: 60px auto 0;
-  width: 40%;
-  font-weight: bold;
-  padding: 5px;
-  font-size: 16px;
-}
-.site .tag a:hover{
-  background: #fff;
-  color: black;
-  transition: 0.5s;
-} */
+
 
 .footer{
   position: relative;
@@ -297,7 +274,8 @@ section h1, h2{
   padding:50px;
 }
 #modal img {
-  width:auto; height:auto; 
+  width:auto; height:auto;
+  min-width: 350px; min-height: 300px;
   max-width:60vw; max-height:60vh;
 }
 #modal .modal_text {
@@ -328,6 +306,7 @@ section h1, h2{
   padding: 5px;
   font-size: 16px;
   margin: auto;
+  cursor: pointer;
 }
 #modal .link:hover{
   background: #577c93;
