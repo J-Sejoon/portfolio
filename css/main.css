@@ -146,7 +146,39 @@
     transform: rotate(360deg);
   }
 }
-
+.scrolldown{
+  position: absolute;
+  left: 48%;
+  bottom: 10%;
+  color: #6379fa;
+}
+.scrolldown::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border: 2px solid;
+  border-top: transparent;
+  border-left: transparent;
+  margin: 0 auto;
+  transform: rotate(45deg);
+  margin-bottom: 10px;
+  animation-name: scroll;
+  animation-direction: alternate;
+  animation-duration: 500ms;
+  animation-iteration-count:infinite;
+}
+@keyframes scroll{
+  0%{
+    transform:translateY(0px) rotate(45deg);
+  }
+  100%{
+      transform:translateY(-10px) rotate(45deg);
+  }
+}
+.scrolldown::after{
+  content: "scroll";
+}
 
 section{
   width: 100%;
